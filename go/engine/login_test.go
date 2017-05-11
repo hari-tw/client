@@ -2569,7 +2569,6 @@ func TestProvisionEnsurePaperKey(t *testing.T) {
 }
 
 func TestProvisionEnsurePaperKeyPUK(t *testing.T) {
-	t.Skip("TODO waiting for CORE-4895 RevokePUK")
 	testProvisionEnsurePaperKey(t, true)
 }
 
